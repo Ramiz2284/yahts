@@ -1,0 +1,21 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Open Sans", sans-serif;
+  --content-width: 1000px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --light-color: #fff;
+  --maincolor: rgb(7, 43, 248);
+}
+
+.promo{
+  text-shadow: 10px 11px 14px #0e0e0e, 3px 5px 1em blue, 3px 3px 0.2em blue;
+}
+
+li {
+  list-style: none;
+}
